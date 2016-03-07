@@ -1,0 +1,186 @@
+body {
+	background-color: #2E1D28 !important;
+	font-family: 'Courgette' !important;
+}
+
+header {
+	background-color: #1F141B;
+	height: 15%;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-top: 1%;
+}
+
+h1, h3, h5, p, header, footer, nav, li, img {
+	background-color: #1F141B !important;
+}
+
+#purple2 {
+	background-color:  #1F141B;
+}
+
+header img {
+	width: 35%;
+}
+
+#nav {
+	color: white;
+}
+
+/* Revisa por qué no se notan los efectos :( */
+li :hover a {
+  text-decoration: none;
+  background-color: #BB96BE !important;
+  border-radius: 1em;
+}
+
+#springc {
+	padding: 3em 0;
+}
+
+#spring {
+	background-image: url("../image/header-image.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 30em;
+	background-size: cover;
+	padding: 6% 10%;
+
+}
+
+.Purple3 {
+	background-color: #1F141B;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding: 5% 10%;
+	text-align: center;
+	position: relative;
+
+}
+
+#h1 {
+	color: #F1AD34 !important;
+	font-size: 5em;
+	margin: 2%;
+
+}
+
+.bgpurple {
+ background-color: #1F141B;
+}
+
+#imgs {
+	color: white;
+
+}
+
+#h3 {
+	color: #F1AD34 !important;
+}
+
+.imgs1 {
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+.fontsans {
+	font-family: sans-serif !important;
+}
+
+#search {
+	background-color: #2E1D28;
+	width: 100%;
+	height: 100%;
+}
+
+#serach1 {
+	padding: 5%;
+	border-radius: .5em;
+	margin: 5%;
+}
+
+.flrigth {
+	float: right;
+}
+
+#aboutme {
+	color: white;
+	padding: 5% 0;
+}
+
+#aboutme img {
+	width: 100%;
+}
+
+.inline-icons {
+	display: inline-block;
+	margin: 0 5% 5% 0;
+	padding: 3%;
+	border-radius: 50%;
+	background-color: #2E1D28; 
+}
+
+footer {
+	text-decoration: none;
+	color: white;
+	background-color: #1F141B;
+	padding: 1%;
+	margin-top: 3%;
+}
+
+footer a {
+	color: #491C4C;
+}
+
+h5:hover a {
+	background-color: #2E1D28;
+	text-decoration: none;
+	color: #491C4C;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+	.Purple3 {
+		background-color: #1F141B;
+		width: 100%;
+		height: 80%;
+		color: white;
+		position: relative;
+		text-align: center;
+		margin-top: 7%;
+		
+	}
+
+	#h1 {
+		color: #F1AD34;
+		font-size: 5em;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.Purple3 {
+		background-color: #1F141B;
+		width: 100%;
+		height: 80%;
+		color: white;
+		position: relative;
+		text-align: center;
+		margin-top: 10%
+	}
+
+	#h1 {
+		color: #F1AD34;
+		font-size: 4em;
+		margin-top: 10%;
+	}
+
+	header img {
+		width: 100%;
+	}
+
+}
+
+
